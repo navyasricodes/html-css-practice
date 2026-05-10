@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css.s</title>
+    <style>
+      body {
+        font-style: italic;
+        background-color: #8a8383;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      .card {
+        background-color: #fff;
+        margin: 100px;
+        padding: 50px;
+        width: 250px;
+      }
+      h1 {
+        margin-bottom: 10px;
+        padding: 10px;
+        color: black;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      input {
+        color: black;
+        margin: 10px;
+        padding: 15px;
+        border-color: rgb(37, 211, 89);
+        border-radius: 1vh;
+      }
+      button {
+        color: black;
+        background-color: #17c6cf;
+        padding: 10px;
+        margin: 10px;
+      }
+      button:hover {
+        background-color: #1509b6;
+      }
+      label {
+        color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Login</h1>
+      <form>
+        <label for="email">email</label>
+
+        <input type="email" name="" id="email" placeholder="Email" />
+        <label for="password">password</label>
+        <input type="password" name="" id="password" placeholder="pasword" />
+        <button>Login</button>
+      </form>
+    </div>
+  </body>
+</html>
